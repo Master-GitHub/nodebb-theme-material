@@ -21,6 +21,12 @@
     "name": "pichalite",
     "email": "pichalite.com@gmail.com"
   },
+  "contributors": [
+   {
+    "name": "Jakub Kosmaty",
+    "email": "admin@cswild.pl"
+   }
+  ],
   "bugs": {
     "url": "https://github.com/Master-GitHub/nodebb-theme-material-cswild/issues"
   }

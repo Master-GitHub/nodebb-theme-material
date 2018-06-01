@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-material",
-    "name": "Material Design",
+    "id": "nodebb-theme-material-cswild",
+    "name": "Material Design CsWild",
     "description": "Material Design Theme for NodeBB",
-    "url": "https://github.com/pichalite/nodebb-theme-material",
+    "url": "https://github.com/Master-GitHub/nodebb-theme-material-cswild",
     "screenshot": "screenshot.png"
 }

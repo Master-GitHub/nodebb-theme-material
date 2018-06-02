@@ -1,6 +1,6 @@
 {
   "name": "nodebb-theme-material-cswild",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "nbbpm": {
     "compatibility": "^1.8.0"
   },

@@ -4,11 +4,11 @@
 	</button>
 	<ul class="dropdown-menu pull-right" role="menu">
 		<li>
-			<a href="{config.relative_path}/user/{userslug}" class="inline-block" id="profile"><i class="fa fa-fw fa-user"></i> [[user:profile]]</a>
+			<a href="{config.relative_path}/user/{userslug}" class="inline-block" id="profile">[[user:profile]]</a>
 		</li>
 		<!-- IF showHidden -->
-		<li><a href="{config.relative_path}/user/{userslug}/settings"><i class="fa fa-fw fa-edit"></i> [[user:settings]]</a></li>
-		<li><a href="{config.relative_path}/user/{userslug}/edit"><i class="fa fa-fw fa-gear"></i> [[user:edit]]</a></li>
+		<li><a href="{config.relative_path}/user/{userslug}/settings">[[user:settings]]</a></li>
+		<li><a href="{config.relative_path}/user/{userslug}/edit">[[user:edit]]</a></li>
 		<!-- ENDIF showHidden -->
 
 		<!-- IF !isSelf -->
@@ -20,15 +20,15 @@
 
 		<!-- IF canBan -->
 		<li class="<!-- IF banned -->hide<!-- ENDIF banned -->">
-			<a component="account/ban" href="#"><i class="fa fa-fw fa-ban"></i> [[user:ban_account]]</a>
+			<a component="account/ban" href="#">[[user:ban_account]]</a>
 		</li>
 		<li class="<!-- IF !banned -->hide<!-- ENDIF !banned -->">
-			<a component="account/unban" href="#"><i class="fa fa-fw fa-ban"></i> [[user:unban_account]]</a>
+			<a component="account/unban" href="#">[[user:unban_account]]</a>
 		</li>
 		<!-- ENDIF canBan -->
 		<!-- IF isAdmin -->
 		<li>
-			<a component="account/delete" href="#" class=""><i class="fa fa-fw fa-trash-o"></i> [[user:delete_account]]</a>
+			<a component="account/delete" href="#" class="">[[user:delete_account]]</a>
 		</li>
 		<!-- ENDIF isAdmin -->
 		<!-- ENDIF !isSelf -->

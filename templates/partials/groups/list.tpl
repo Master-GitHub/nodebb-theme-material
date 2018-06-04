@@ -24,9 +24,6 @@
                 <!-- ENDIF groups.truncated -->
             </ul>
         </div>
-        <div class="card-footer">
-            {groups.memberCount} member(s)
-        </div>
     </div>
 </div>
 <!-- END groups -->

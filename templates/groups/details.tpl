@@ -47,7 +47,7 @@
 				</div>
 				<table component="groups/members" class="table members" data-nextstart="{group.membersNextStart}">
 					<tbody>
-						<!-- BEGIN members -->
+						<!-- BEGIN group.members -->
 						<tr data-uid="{group.members.uid}">
 							<td>
 								<a href="{config.relative_path}/user/{group.members.userslug}">
@@ -83,7 +83,7 @@
 							</td>
 							<!-- ENDIF group.isOwner -->
 						</tr>
-						<!-- END members -->
+						<!-- END group.members -->
 					</tbody>
 				</table>
 			</div>
